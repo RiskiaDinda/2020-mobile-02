@@ -132,7 +132,7 @@
         android:layout_height="0dp"
         android:layout_weight="1">
 
-        <EditText
+        <Spinner
             android:id="@+id/edt_coutry"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -140,9 +140,10 @@
             android:layout_marginRight="30dp"
             android:fontFamily="@font/futura_pt_demibold"
             android:hint="Country"
+            android:spinnerMode="dropdown"
             android:textSize="20sp">
 
-        </EditText>
+        </Spinner>
 
     </LinearLayout>
 
@@ -215,6 +216,7 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
             android:layout_marginRight="30dp"
             android:background="@drawable/btn_red_large"
             android:fontFamily="@font/futura_pt_demibold"

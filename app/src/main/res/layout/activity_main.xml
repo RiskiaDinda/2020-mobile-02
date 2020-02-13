@@ -61,7 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="28dp"
         android:fontFamily="@font/futura_pt_demibold"
-        android:text="at largest Servies marketplace"
+        android:text="at largest Service marketplace"
         android:textColor="#030000"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
